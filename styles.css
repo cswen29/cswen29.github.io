@@ -3,8 +3,29 @@ body {
   }
   
   .topnav {
-    
+    overflow: hidden;
+    position: fixed;
+    top: 1;
+    width: 80%;
   }
+
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16;
+  }
+
+  .navbar a:hover {
+    color: rgb(153, 25, 25);
+  }
+
+  .resize {
+    width: 500px;
+    height: auto;
+    align-items: end;
+  }
+
   h1 {
     color: white;
     text-align: center;
