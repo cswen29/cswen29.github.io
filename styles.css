@@ -13,7 +13,7 @@ body {
   .topnav {
     overflow: hidden;
     position: fixed;
-    top: 1;
+    top: 0;
     width: 80%;
     color: white;
     text-align: center;
