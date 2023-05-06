@@ -25,10 +25,19 @@ body {
     padding: 14px 16px;
     font-size: 16;
     color: white;
+    text-decoration: none;
   }
 
   .navbar a:hover {
     color: rgb(153, 25, 25);
+  }
+
+  .navbar a:active {
+    color:rgb(153, 25, 25)
+  }
+
+  .navbar a:visited {
+    color: white;
   }
 
   .resize {
