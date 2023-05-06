@@ -2,6 +2,14 @@ body {
     background-color: rgb(0, 0, 0);
   }
   
+  .hero-image {
+    background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }
+ 
+  
   .topnav {
     overflow: hidden;
     position: fixed;
