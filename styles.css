@@ -50,7 +50,8 @@ body {
   .resize {
     width: 500px;
     height: auto;
-    align-items: end;
+    align-content: left;
+    padding-left: 15px;
   }
 
   h1 {
