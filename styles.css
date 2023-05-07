@@ -36,8 +36,9 @@ header {
 
   .topnav a {
     float: none;
+    width: 33%;
     text-align: center;
-    padding: 8px 22px;
+    padding: 12px 22px;
     font-size: 19;
     color: white;
     text-decoration: none;
