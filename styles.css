@@ -89,7 +89,7 @@ header1 {
   }
 
   h2 {
-    color:antiquewhite;
+    color:rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
   }
@@ -101,7 +101,7 @@ header1 {
   
   p {
     user-select: none;
-    color:antiquewhite;
+    color:rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     width: 800px;
