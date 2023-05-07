@@ -5,7 +5,7 @@ body {
   .hero-image {
     background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
     background-size: cover;
-    height: auto; 
+    height: 500px; 
     width: auto;
     position: relative;
   }
