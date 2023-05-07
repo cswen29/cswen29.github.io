@@ -29,6 +29,10 @@ header {
     text-decoration: none;
   }
 
+  :last-child {
+    padding: 0px;
+  }
+  
   .topnav a {
     float: none;
     width: 33%;
