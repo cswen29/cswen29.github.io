@@ -1,4 +1,6 @@
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(0, 0, 0);
   }
   
@@ -12,7 +14,8 @@ body {
   }
  
   nav {
-    display: inline-block;
+    display: flex;
+    align-items: center;
   }
   .topnav {
     overflow: hidden;
@@ -27,7 +30,6 @@ body {
   .topnav a {
     float: none;
     display: block;
-    background-color: aqua;
     text-align: center;
     padding: 8px 22px;
     font-size: 19;
