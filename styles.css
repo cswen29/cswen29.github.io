@@ -46,13 +46,23 @@ body {
 
   .topnav-left {
     float: left;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
   }
 
   .topnav-left a:visited {
     color: white;
     text-decoration: none;
+  }
+
+  .topnav-left a:hover {
+    color: rgb(188, 100, 100);
+    text-decoration: wavy;
+  }
+
+  .topnav-left a:active {
+    color:rgb(158, 39, 39);
+    text-decoration: wavy;
   }
 
   .resize {
