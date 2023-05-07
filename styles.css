@@ -96,6 +96,7 @@ body {
   }
   
   p {
+    user-select: none;
     color:antiquewhite;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
