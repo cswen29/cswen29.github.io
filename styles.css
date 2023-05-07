@@ -11,6 +11,10 @@ header {
   text-align: center;
 }  
 
+nav {
+  background-color: black;
+  position: relative;
+}
   .hero-image {
     background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
     background-size: cover;
@@ -32,7 +36,7 @@ header {
   :last-child {
     padding: 0px;
   }
-  
+
   .topnav a {
     float: none;
     width: 33%;
