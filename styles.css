@@ -23,7 +23,7 @@ body {
   }
 
   .topnav a {
-    float: center;
+    float: none;
     display: block;
     background-color: aqua;
     text-align: center;
