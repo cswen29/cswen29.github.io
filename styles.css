@@ -66,7 +66,9 @@ nav {
     float: left;
     color: white;
     text-decoration: none;
-    padding-left: 16px;
+    top: 2%;
+    padding-left: 22px;
+    padding-bottom: 5px;
   }
 
   .topnav-left a:visited {
@@ -85,10 +87,11 @@ nav {
   }
 
   .resize {
-    width: 500px;
+    float: left;
+    width: 400px;
     height: auto;
     align-content: left;
-    padding-left: 15px;
+    padding-left: 2%;
   }
 
   h1 {
@@ -112,8 +115,9 @@ nav {
     user-select: none;
     color:rgb(255, 255, 255);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 800px;
+    font-size: 16px;
+    line-height: 24pt;
+    width: 66%;
     margin: 0 auto;
     text-align: center;
   }
@@ -126,4 +130,143 @@ nav {
     padding: 10px;
   }
 
+  *{
+    box-sizing: border-box;
+  }
 
+.column {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}  
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: content-box;
+  place-content: center;
+}
+
+input[type=text], select, textarea {
+  float: none;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: center;
+  width: 50%;
+  padding: 12px 2px;
+  background-color: #000000;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  resize: vertical;
+}
+
+label {
+  text-align: center;
+  padding: 12px 12px 12px 0;
+  color: white;
+  display: inline-block;
+}
+
+input[type=submit] {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid white;
+  border-radius: 0px;
+  cursor: pointer;
+  float: none;
+}
+
+input[type=submit]:hover {
+  background-color: #b45252;
+}
+
+.container {
+  text-align: center;
+  place-items: center;
+  border-radius: 0px;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.col-75 {
+  text-align: center;
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.icon-bar {
+  place-items: center;
+  width: 100%;
+  float: none;
+  text-align: center;
+  background-color: none;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.icon-bar a {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 2px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #c48080;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
