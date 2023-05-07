@@ -14,6 +14,7 @@ header {
 nav {
   background-color: black;
   position: relative;
+  padding: 10px;
 }
   .hero-image {
     background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
