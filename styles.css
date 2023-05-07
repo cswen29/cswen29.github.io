@@ -9,7 +9,9 @@ body {
     position: relative;
   }
  
-  
+  nav {
+    display: inline-block;
+  }
   .topnav {
     overflow: hidden;
     position: fixed;
