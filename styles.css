@@ -27,9 +27,9 @@ body {
   }
 
   .topnav a {
-    float: right;
-    text-align: right;
-    padding: 22px 8px;
+    float: center;
+    text-align: center;
+    padding: 8px 22px;
     font-size: 16;
     color: white;
     text-decoration: none;
