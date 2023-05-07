@@ -25,10 +25,10 @@ header {
   }
 
   .topnav {
-    overflow: hidden;
+    overflow: auto;
     position: fixed;
     top: 20%;
-    width: 100%;
+    width: 50%;
     color: white;
     text-align: center;
     text-decoration: none;
