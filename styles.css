@@ -15,7 +15,9 @@ body {
   nav {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
+
   .topnav {
     overflow: hidden;
     position: fixed;
