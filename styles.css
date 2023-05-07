@@ -14,7 +14,7 @@ header {
   .hero-image {
     background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
     background-size: cover;
-    height: 800px; 
+    height: 700px; 
     width: auto;
     background-attachment: fixed;
   }
@@ -27,8 +27,8 @@ header {
   .topnav {
     overflow: auto;
     position: fixed;
-    top: 20%;
-    width: 50%;
+    top: 10%;
+    width: 100%;
     color: white;
     text-align: center;
     text-decoration: none;
