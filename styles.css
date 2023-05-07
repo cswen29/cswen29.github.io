@@ -20,13 +20,8 @@ body {
     text-decoration: none;
   }
 
-  .topnav-left {
-    float: left;
-    text-decoration: none;
-    color: white;
-  }
-
   .topnav a {
+    background-color: aqua;
     float: center;
     text-align: center;
     padding: 8px 22px;
@@ -47,6 +42,17 @@ body {
   .topnav a:active {
     color:rgb(158, 39, 39);
     text-decoration: wavy;
+  }
+
+  .topnav-left {
+    float: left;
+    text-decoration: none;
+    color: white;
+  }
+
+  .topnav-left a:visited {
+    color: white;
+    text-decoration: none;
   }
 
   .resize {
