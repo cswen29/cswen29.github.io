@@ -5,16 +5,17 @@
     <link rel="icon" href="ChessW.ico" />
     <link href="styles.css" rel="stylesheet">
 <header clas="header1">
-    <a href="index.html"></a><h1>WEN CHEW</h1></a>
+    <a href="index.html"><h1>WEN CHEW</h1></a>
 </header>    
 
 <div class="hero-image">
-    <div class="topnav">
+    <div class="topnav" style="padding: 10px">
         <a href="sdn.html">SOUND DESIGN</a>
         <a href="vp.html">VIDEO PRODUCTION</a>
-        <a href="berklee.html">BERKLEE</a>
+        <a href="berklee.html">BERKLEE COLLEGE</a>
     </div>
 </div>
+
 <h2> Hello </h2> 
 <body>
   <p style="padding-bottom: 20px;"> 
@@ -30,40 +31,45 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="icon-bar">
+    <base target="_blank">
     <a href ="https://www.instagram.com/cswen29/"><i class="fa fa-instagram"></i></a> 
     <a href="https://www.youtube.com/@wenc29"><i class="fa fa-youtube"></i></a> 
     <a href="https://soundcloud.com/whooman29"><i class="fa fa-soundcloud"></i></a> 
   </div>
-
+</base>
 <hr />     
 
 
-
-<h2> Contact Info </h2>     
+<h2>Contact Info</h2>     
+<a href="mailto:wen@wenchew.com"><h3>wen@wenchew.com</h3></html></a>
     <div class="container">
     <form action="/action_page.php">
         <div class="row">
-        <div class="col-75">
+        <div class="col-75" style="padding-bottom: 10px">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
         </div>
         </div>
         <div class="row">
-        <div class="col-75">
+        <div class="col-75" style="padding-bottom: 10px">
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
         </div>
         </div>
         <div class="row">
-        <div class="col-75">
+        <div class="col-75" style="padding-bottom: 10px">
             <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
+            <option value="australia">Asia</option>
+            <option value="canada">Africa</option>
+            <option value="usa">North America</option>
+            <option value="usa">South America</option>
+            <option value="usa">Antarctica</option>
+            <option value="usa">Europe</option>
+            <option value="usa">Australia</option>
             </select>
         </div>
         </div>
         <div class="row">
-        <div class="col-75">
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        <div class="col-75" style="padding-bottom: 10px">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
         </div>
         </div>
         <div class="row">
@@ -72,10 +78,20 @@
     </form>
     </div>
     
-    </body>
-    </html>
-      
-    
+<script>  
+window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("topnav");
+    var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>      
 </body>
 </html>
     
