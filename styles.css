@@ -251,6 +251,11 @@ button {
   float: none;
   font-family: 'Times New Roman', Times, serif;
 }
+
+button:hover {
+  background-color:#c48080;
+}
+
 /* GALLERY */
 * {
   box-sizing: border-box;
