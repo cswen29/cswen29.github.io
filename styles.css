@@ -118,12 +118,12 @@ nav {
   }
 
   h3 {
-    color:rgb(255, 255, 255);
+    color:rgb(197, 131, 131);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-    line-height: 24pt;
-    text-decoration: none;
+    line-height: 0pt;
+    text-decoration: underline;
     width: auto;
     margin: 0 auto;
 
@@ -146,7 +146,12 @@ nav {
   }
 
   a:hover {
-    color: linear-gradient(rgb(188, 100, 100), white);
+    color: rgb(188, 100, 100);
+  }
+
+  a:active {
+    color:rgb(158, 39, 39);
+    text-decoration: wavy;
   }
 
   img {
