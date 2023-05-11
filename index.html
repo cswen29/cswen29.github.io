@@ -43,39 +43,25 @@
 <h2>Contact Info</h2>     
 <a href="mailto:wen@wenchew.com"><h3>wen@wenchew.com</h3></html></a>
     <div class="container">
-    <form id="fcf-form-id" class="col-25" action="form.php" method="post">
-        <div class="row">
-        <div class="col-75" style="padding-bottom: 10px">
-            <input type="text" id="fname" name="name" placeholder="Your name..">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
+        <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
         </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
         </div>
-        <div class="row">
-        <div class="col-75" style="padding-bottom: 10px">
-            <input type="text" id="email" name="email" placeholder="Your email..">
-        </div>
-        </div>
-        <div class="col-75">
-        <div class="col-75" style="padding-bottom: 10px">
-            <select id="country" name="country">
-            <option value="australia">Asia</option>
-            <option value="canada">Africa</option>
-            <option value="usa">North America</option>
-            <option value="usa">South America</option>
-            <option value="usa">Antarctica</option>
-            <option value="usa">Europe</option>
-            <option value="usa">Australia</option>
-            </select>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-75" style="padding-bottom: 10px">
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
-        </div>
-        </div>
-        <div class="row">
-        <input type="submit" value="Submit">
-        </div>
-    </form>
     </div>
     
 <script>  

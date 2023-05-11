@@ -18,14 +18,14 @@ if (isset($_POST['Email'])) {
     if (
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
-        !isset($_POST['Message'])
+        !isset($_POST['Subject'])
     ) {
         problem('We're sorry, but there appears to be a problem with the form you submitted.');
     }
 
     $name = $_POST['Name']; // required
     $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
+    $subject = $_POST['Subject']; // required
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
@@ -58,7 +58,7 @@ if (isset($_POST['Email'])) {
 
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
-    $email_message .= "Message: " . clean_string($message) . "\n";
+    $email_message .= "Subject: " . clean_string($subject) . "\n";
 
     // create email headers
     $headers = 'From: ' . $email . "\r\n" .
@@ -70,6 +70,23 @@ if (isset($_POST['Email'])) {
     <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
 
     Welcome to my page, <?php echo $_POST["name"]; ?><br>! 
+    // define variables and set to empty values
+
+$name = $email = $subject = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = test_input($_POST["name"]);
+  $email = test_input($_POST["email"]);
+  $subject = test_input($_POST["subject"]);
+}
+
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+?>
 
 <?php
 }
