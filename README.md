@@ -46,6 +46,7 @@ Skills I learned that I didn't expect:
 - SEO
 - HTTPS
 - Forms 
+- Opening links in new tab (target)
 
 
 I am currently figuring out how to make the form part and how would it send the message to me. I already had a form, learning from W3 schools but then I couldn't find where I could collect the information so I went online to research and I found this [website](https://paperform.co/blog/html-contact-form/), it taught me about PHP files and how by doing this, I will receive the email, I learnt that there are many limitations from this because this doesn't send the information into a data form but I will be spammed with emails for responses. 
