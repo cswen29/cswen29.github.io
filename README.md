@@ -55,6 +55,7 @@ Skills I learned that I didn't expect:
 - Forms 
 - Opening links in new tab (target)
 - PHP 
+- Favicon making
 
 I am currently figuring out how to make the form part and how would it send the message to me. I already had a form, learning from W3 schools but then I couldn't find where I could collect the information so I went online to research and I found this [website](https://paperform.co/blog/html-contact-form/), it taught me about PHP files and how by doing this, I will receive the email, I learnt that there are many limitations from this because this doesn't send the information into a data form but I will be spammed with emails for responses. 
 
@@ -81,3 +82,4 @@ There are so many things I would love to improve
 - More interaction
 
 During class presentation I didn't like how my videos on the VP page looks so I added a container div for it. I love how adding CSS within the HTML file overrides some style stuff in CSS because it would have been more harder to add another type of container with all the same attributes just different padding etc.  
+
