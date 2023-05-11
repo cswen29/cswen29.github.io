@@ -11,11 +11,7 @@ header {
   text-align: center;
 }  
 
-nav {
-  background-color: black;
-  position: relative;
-  padding-top: 20px;
-}
+/* Index background photo */
   .hero-image {
     background: url(wen\ portrait\ -\ jia.JPG) no-repeat center;
     background-size: cover;
@@ -24,6 +20,15 @@ nav {
     background-attachment: fixed;
     overflow: clip;
   }
+
+/* Navigation bar stuff*/
+
+
+nav {
+  background-color: black;
+  position: relative;
+  padding-top: 20px;
+}
 
   .topnav {
     overflow: hidden;
@@ -90,6 +95,7 @@ nav {
     text-decoration: wavy;
   }
 
+/* Photo class */
   .resize {
     float: left;
     width: 400px;
@@ -98,6 +104,7 @@ nav {
     padding-left: 2%;
   }
 
+/* Font stuff */
   h1 {
     color: white;
     text-align: center;
@@ -165,7 +172,7 @@ nav {
   clear: both;
   display: table;
 }
-
+/* CONTACT FORM */
 * {
   box-sizing: content-box;
   place-content: center;
@@ -230,6 +237,7 @@ input[type=submit]:hover {
   }
 }
 
+/* SOCIAL MEDIA LINKS ICON BAR */
 .icon-bar {
   place-items: center;
   width: 100%;
@@ -320,3 +328,19 @@ input[type=submit]:hover {
   background: #ddd;
   color: black;
 }
+
+
+
+/*
+window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("topnav");
+    var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} */ 

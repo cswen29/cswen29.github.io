@@ -43,7 +43,7 @@
 <h2>Contact Info</h2>     
 <a href="mailto:wen@wenchew.com"><h3>wen@wenchew.com</h3></html></a>
     <div class="container">
-    <form action="/action_page.php">
+    <form id="fcf-form-id" class="col-25" method="post" action="form.php">
         <div class="row">
         <div class="col-75" style="padding-bottom: 10px">
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -51,10 +51,10 @@
         </div>
         <div class="row">
         <div class="col-75" style="padding-bottom: 10px">
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <input type="text" id="email" name="email" placeholder="Your email">
         </div>
         </div>
-        <div class="row">
+        <div class="col-75">
         <div class="col-75" style="padding-bottom: 10px">
             <select id="country" name="country">
             <option value="australia">Asia</option>
@@ -73,24 +73,12 @@
         </div>
         </div>
         <div class="row">
-        <input type="submit" value="Submit" href="index.html">
+        <input type="submit" value="Submit">
         </div>
     </form>
     </div>
     
 <script>  
-window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("topnav");
-    var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
 </script>      
 </body>
 </html>
