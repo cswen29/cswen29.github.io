@@ -6,6 +6,8 @@
 
 [Final Project Presentation](https://docs.google.com/presentation/d/1C88zkO2uswxxGMGlA5i3fQpBJ_V_3OCDjFzsvof3_r0/edit?usp=sharing)
 
+[Final Project Brainstorm](https://docs.google.com/document/d/1n3dw3B5qYlOIxkQUO14FXgl1UtZBGMvPUqM0juc-ovA/edit?usp=sharing)
+
 From my [final project proposal](https://github.com/cswen29/ITP/tree/main/final/final%20project%20proposal), I followed most of my guidelines like: it being my portfolio, it has my sound design reel page, Video prdouction stuff (Directing, Filming, Editing), it has my social media links, and at this stage, im about to add in my resume, debug some front end stuff and make it even nicer. 
 
 So far, the interactiveness I have in my website includes the hover feature, parallax scrolling effect and a Contact Me section, although I don't really like the outlook of that just yet. I am about to include more animation and linear gradient with my sticky navigating top bar. Currently, the navigation bar is in a fixed position instead of sticky, so I will work on changing that.  
