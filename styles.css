@@ -177,14 +177,6 @@ nav {
   box-sizing: content-box;
   place-content: center;
 }
-.fcf-body {
-  font-family: -apple-system, Arial, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  color: #0000ff;
-  text-align: left;
-}
-
 
 .container {
   text-align: center;
@@ -193,6 +185,69 @@ nav {
   background-color: #000000;
   padding: 10px;
 }
+
+.fcf-body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+label {
+  cursor: pointer;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 4px;
+  margin: 3px;
+}
+
+input[type=text], select, textarea {
+  float: none;
+  text-align: center;
+  padding: 4px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  position: center;
+  background-color: black;
+  border: 1px solid #ffffff;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid white;
+  border-radius: 0px;
+  cursor: pointer;
+  text-align: center;
+  float: none;
+}
+
+button {
+  position: center;
+  background-color: #000000;
+  color: white;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 0px;
+  cursor: pointer;
+  text-align: center;
+  float: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*
+
 
 input[type=text], select, textarea {
   float: none;
@@ -229,6 +284,7 @@ input[type=submit]:hover {
   width: 100%;
   margin-top: 6px;
 }
+*/
 
 /* Clear floats after the columns */
 .row:after {

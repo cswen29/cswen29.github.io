@@ -40,28 +40,29 @@
 <hr />     
 
 
-<h2>Contact Info</h2>     
-<a href="mailto:wen@wenchew.com"><h3>wen@wenchew.com</h3></html></a>
+<h2>Contact Me</h2>     
     <div class="container">
-    <form id="fcf-form-id" class="fcf-form-class" method="post" action="form.php/&quot;&gt;&lt;script&gt;alert('hacked')&lt;/script&gt;">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
         <label for="Name" class="fcf-label">Your name</label>
             <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                <input type="text" id="Name" name="Name" class="fcf-form-control" style="width: 40%;"required>
             </div>
         <div class="fcf-form-group">
             <label for="Email" class="fcf-label">Your email address</label>
             <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                <input type="email" id="Email" name="Email" class="fcf-form-control" style="width: 40%;" required>
             </div>
         <div class="fcf-form-group">
             <label for="Message" class="fcf-label">Your message</label>
             <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" style="width: 40%" style="height: 40px" required></textarea>
             </div>
         </div>
         <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" formtarget="_blank" style="padding:10px">Submit</button>
         </div>
+        </div>
+    </form>
     </div>
     
 <script>  
