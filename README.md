@@ -50,10 +50,21 @@ Skills I learned that I didn't expect:
 - Opening links in new tab (target)
 - PHP 
 
-
-
 I am currently figuring out how to make the form part and how would it send the message to me. I already had a form, learning from W3 schools but then I couldn't find where I could collect the information so I went online to research and I found this [website](https://paperform.co/blog/html-contact-form/), it taught me about PHP files and how by doing this, I will receive the email, I learnt that there are many limitations from this because this doesn't send the information into a data form but I will be spammed with emails for responses. 
 
 I tried figuring out PHP for many hours but in the end I found a submit form [website](https://formsubmit.co/) that forwards forms for me directly, and that saved a lot of trouble. 
 
 Then I did my Berklee Gallery that resizes! 
+
+So far, my assets include:
+- Photos
+- Videos
+- Youtube Embed Videos
+- Form
+
+CLARIFICATION ON WHICH CODE IS MINE AND WHICH IS NOT:
+- Everything on Index is mine up until the Form part, I initially made my own but when Figuring out how to deal with sending the data to me, PHP etc, I deleted all of the tries and copied, but the CSS decoration of it is all mine
+- Everything in SDN Sub page are mine
+- Everything in Video Prod sub page are mine learnt from W3 Schools 
+- Everything in Berklee Sub page are also mine, learnt from W3 Schools 
+
