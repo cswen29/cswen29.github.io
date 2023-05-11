@@ -79,3 +79,5 @@ There are so many things I would love to improve
 - Form information sent to a database instead of my email (PHP)
 - More pages 
 - More interaction
+
+During class presentation I didn't like how my videos on the VP page looks so I added a container div for it. I love how adding CSS within the HTML file overrides some style stuff in CSS because it would have been more harder to add another type of container with all the same attributes just different padding etc.  
