@@ -1,4 +1,7 @@
 <?php
+
+Welcome <?php echo $_POST["name"]; ?><br>
+
 if (isset($_POST['Email'])) {
 
     // EDIT THE FOLLOWING TWO LINES:
