@@ -24,8 +24,8 @@ if (isset($_POST['Email'])) {
         !isset($_POST['Name']) ||
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
-    ) {
-        problem('We're sorry, but there appears to be a problem with the form you submitted.');
+    )
+        problem("We're sorry, but there appears to be a problem with the form you submitted.");
     }
 
     $name = $_POST['Name']; // required
