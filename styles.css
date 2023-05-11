@@ -177,6 +177,22 @@ nav {
   box-sizing: content-box;
   place-content: center;
 }
+.fcf-body {
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0000ff;
+  text-align: left;
+}
+
+
+.container {
+  text-align: center;
+  place-items: center;
+  border-radius: 0px;
+  background-color: #000000;
+  padding: 10px;
+}
 
 input[type=text], select, textarea {
   float: none;
@@ -206,14 +222,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #b45252;
-}
-
-.container {
-  text-align: center;
-  place-items: center;
-  border-radius: 0px;
-  background-color: #000000;
-  padding: 10px;
 }
 
 .col-75 {
