@@ -95,6 +95,17 @@ nav {
     text-decoration: wavy;
   }
 
+/* iframe SDN */
+.responsive-iframe {
+  text-align: center;
+  position: static;
+  left: 0;
+  bottom: 0;
+  right: 40%;
+  width: 80%;
+  height: 65%;
+}
+
 /* Photo class */
   .resize {
     float: left;
@@ -186,6 +197,7 @@ nav {
 .container {
   text-align: center;
   place-items: center;
+  overflow: hidden;
   border-radius: 0px;
   background-color: #000000;
   padding: 10px;
