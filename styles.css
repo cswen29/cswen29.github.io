@@ -22,9 +22,15 @@ header {
     height: 700px; 
     width: 100%;
     background-attachment: fixed;
-    overflow: clip;
+    overflow: hidden;
   }
 
+@media only screen and (max-width: 600px) {
+    .hero-image {
+      height: auto; 
+      min-height: 200px;
+    }
+  }
 /* Navigation bar stuff*/
 
 
@@ -527,6 +533,10 @@ input[type=submit]:hover {
 }
 
 .fa-soundcloud {
+  background: none;
+  color: white;
+}
+.fa-linkedin {
   background: none;
   color: white;
 }
