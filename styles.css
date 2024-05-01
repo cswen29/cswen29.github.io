@@ -232,7 +232,7 @@ nav {
     color:rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
-  }
+    }
 
   h3 {
     color:rgb(197, 131, 131);
@@ -254,6 +254,27 @@ nav {
     padding: 10px;
     margin: 0px;
   }
+
+  h5{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 10px;
+    font-style:italic;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+  }
+
+  h6{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-style: normal;
+    padding: 0px;
+    text-align: center;
+    font-weight: 10;
+    margin: 22px;
+  }
+  
   p {
     user-select: none;
     color:rgb(255, 255, 255);
@@ -295,6 +316,7 @@ nav {
   float: none;
   width: 100%;
   padding: 20px;
+  align-items: center;
 }  
 
 .row::after {
