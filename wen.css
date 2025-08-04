@@ -1,0 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: auto; 
+}
+.hero-image {
+    background: url(_WEN/Wensite_Draft1.png) no-repeat center top;
+    background-size: contain;
+    height: 100vh;
+    max-height: 1000px; 
+    width: 100%;
+    overflow: hidden;
+  }
