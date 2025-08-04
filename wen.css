@@ -7,7 +7,7 @@ html, body {
     overflow: auto; 
 }
 .hero-image {
-    background: url(_WEN/Wensite_Draft1.png) no-repeat center top;
+    background: url(1_WEN/Wensite_Draft1.png) no-repeat center top;
     background-size: contain;
     height: 100vh;
     max-height: 1000px; 
