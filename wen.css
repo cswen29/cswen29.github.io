@@ -27,7 +27,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;     
-    gap: 20px;              
+    gap: 15px;              
     height: fit-content;
     transition: all 0.3s ease;
     padding-top: 10px;
@@ -57,7 +57,7 @@ html, body {
 .heart {
     position: relative;
     width: 430px;
-    top: 20%;
+    /* top: 20%; */
 }
 
 .message {
